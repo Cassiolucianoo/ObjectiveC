@@ -14,6 +14,13 @@ int main(int argc, const char * argv[]) {
        
         Numeros * n = [[Numeros alloc]init];
         Caracter * c = [[Caracter alloc]init];
+         
+        id novoNumero;
+        novoNumero = n;
+        
+        [novoNumero setNumeros:20 :14];
+        [novoNumero add];
+        [novoNumero imprimir];
         
         [n setNumeros: 9 :10];
         [n add];
@@ -22,6 +29,10 @@ int main(int argc, const char * argv[]) {
         [c setCaracter];
         [c add];
         [c imprimir];
+        
+        
+        
+        
         
         
     }
