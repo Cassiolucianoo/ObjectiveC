@@ -10,7 +10,7 @@
 @implementation Quadrado : Retangulo
 
 -(void) setLado:(int) a {
-    [self setAl:a :a];
+    [self setAl:a:a];
 }
 
 

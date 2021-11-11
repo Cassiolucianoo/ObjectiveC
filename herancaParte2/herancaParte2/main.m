@@ -18,12 +18,11 @@ int main(int argc, const char * argv[]) {
         [q setLado :10];
         
         //imprimindo os atributos de nossa classe
-        NSLog(@" Lado x %i", q.altura);
+        NSLog(@" Lado = %i", [q altura]);
         
         //chamando o valores dos metodos
-        NSLog(@" Area :  %i e Perimetro : %i", [q area ], [q  perimetro]);
-        
-        
+        NSLog(@" Area =  %i e Perimetro : %i", [q area], [q  perimetro]);
+    
         
 //        Retangulo * r = [[Retangulo alloc]init];
 //
@@ -35,7 +34,7 @@ int main(int argc, const char * argv[]) {
 //        //chamando o valores dos metodos
 //        NSLog(@" Area :  %i e Perimetro : %i", [r area ], [r  perimetro]);
         
-        
     }
+    
     return 0;
 }

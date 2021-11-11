@@ -5,6 +5,7 @@
 //  Created by cassio luciano on 09/11/21.
 //
 
+#import <Foundation/Foundation.h>
 
 @interface Retangulo : NSObject {
     //atributos da classe
